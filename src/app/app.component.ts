@@ -34,6 +34,7 @@ export class AppComponent {
           arraynumeros.forEach(element => {
             if (element == "+" || element == '-' || element == '*' || element == '/' || element == "%") {
               this.calculate();
+              this.display += num;
               aux++;
             }
           });
